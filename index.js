@@ -1,80 +1,59 @@
-// task1--------------------------------------------
+//  1 task-----------------------
 
-// let students = ["nestani", "lasha", "Demetre", "sally", "luka"];
+// let str = "level";
 
-// let reversedArr = students.reverse();
-
-// console.log(reversedArr);
-
-// task 2-------------------------------------------
-
-// let students = ["nestani", "lasha", "Demetre", "sally", "luka"];
-
-// for (let i = 0; i < students.length; i++) {
-//   if (students[i].includes("a")) {
-//     console.log(`Students with 'a' in their name:${students[i]}`);
+// let palindrome = (str) => {
+//   let lowerStr = str.toLowerCase();
+//   for (let i = 0; i < lowerStr.length / 2; i++) {
+//     if (lowerStr[i] !== lowerStr[lowerStr.length - 1 - i]) {
+//       return `${str} is not a palindrome`;
+//     } else {
+//       return `${str} is a palindrome`;
+//     }
 //   }
-// }
+// };
 
-// task 3-------------------------------------------
+// let result = palindrome(str);
 
-// let persons = ["David", "Elene", "Teona", "Giorgi"];
+// console.log(result);
 
-// let hasElene = false;
+// -----------------------------
 
-// for (let i = 0; i < persons.length; i++) {
-//   let lowerCase = persons[i].toLocaleLowerCase();
-//   if (lowerCase.includes("elene")) {
-//     hasElene = true;
-//     break;
+// let str = "level";
+
+// let isPlindrome = (str) => {
+//   let lowerStr = str.toLowerCase();
+//   let reverse = str.split("").reverse().join("").toLowerCase();
+
+//   if (lowerStr !== reverse) {
+//     return `${str} is not a palindrome`;
+//   } else {
+//     return `${str} is a palindrome`;
 //   }
-// }
+// };
 
-// if (hasElene) {
-//   console.log(`Elene is in the persons array`);
-// } else {
-//   console.log("Elene is not in the persons array");
-// }
+// let result = isPlindrome(str);
 
-// task 4-----------------------------------
+// console.log(result);
 
-// let arr = [1, 7, 35, 15, 30];
+//  2 task-----------------------
 
-// let sortedArr = arr.sort((a, b) => a - b);
+// const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
 
-// console.log(sortedArr);
+// let newFruit = fruits.splice(1, 2);
+// console.log(newFruit);
 
-// task 5-----------------------------------
+//  3 task-----------------------
 
-// let user = "admin";
+// const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
 
-// let passCode = 12345;
+// let sort = (arr) => {
+//   let alphabeticalArr = arr.sort();
+//   return alphabeticalArr;
+// };
 
-// let userName = String(prompt("Enter Username")).toLocaleLowerCase();
-// let password = Number(prompt("Enter password "));
+// let result = sort(fruits);
 
-// if (userName === user && password === passCode) {
-//   console.log("Login successful. Welcome!");
-// } else if (userName == "" || password == "") {
-//   console.log("Username or password cannot be empty");
-// } else {
-//   console.log("Incorrect username or Incorrect password");
-// }
+// console.log(result);
 
-// task 6-----------------------------------
-
-// let askFruit = String(prompt("What is your favorite fruit?")).toLowerCase();
-
-// if (askFruit == "" || !isNaN(askFruit)) {
-//   console.log("enter fruit name");
-// } else if (askFruit == "apple") {
-//   console.log("Apples are great for a quick snack!");
-// } else if (askFruit == "bannana") {
-//   console.log("Bananas are full of potassium!");
-// } else if (askFruit == "orange") {
-//   console.log("Oranges are a great source of vitamin C!");
-// } else {
-//   console.log(
-//     "That's an interesting choice! I don't know much aboutthat fruit"
-//   );
-// }
+// 4 task-----------------------
