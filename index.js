@@ -57,3 +57,27 @@
 // console.log(result);
 
 // 4 task-----------------------
+// let dolphinsScored = [85, 54, 41];
+// let koalasScored = [23, 34, 27];
+
+// let calcAvrg = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+
+// let scoreDolphins = calcAvrg(
+//   dolphinsScored[0],
+//   dolphinsScored[1],
+//   dolphinsScored[2]
+// );
+
+// let scoreKoalas = calcAvrg(koalasScored[0], koalasScored[1], koalasScored[2]);
+
+// let checkWinner = (avgDolphins, avgKoalas) => {
+//   if (avgDolphins >= avgKoalas * 2) {
+//     return `Delfins win ${avgDolphins} vs. ${avgKoalas}),`;
+//   } else if (avgKoalas >= avgDolphins * 2) {
+//     return `Koalas win ${avgKoalas} vs. ${avgDolphins}),`;
+//   } else {
+//     return `  No team wins...`;
+//   }
+// };
+
+// console.log(checkWinner(scoreDolphins, scoreKoalas));
